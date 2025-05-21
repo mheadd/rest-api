@@ -2,6 +2,8 @@
 
 This project is a basic REST API built with Node.js and Express. It provides a simple example endpoint for demonstration purposes.
 
+**Note:** This project is an experiment using Visual Studio Code and GitHub Copilot to do "vibe coding"—rapid, AI-assisted development and iteration.
+
 ## Getting Started
 
 1. Install dependencies:
