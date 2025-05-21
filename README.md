@@ -17,6 +17,13 @@ This project is a basic REST API built with Node.js and Express. It provides a s
 
 The API will be available at `http://localhost:3000/`.
 
+## Running Tests
+
+To run the test suite:
+```bash
+npm test
+```
+
 ## Endpoints
 - `GET /` - Returns a welcome message.
 
