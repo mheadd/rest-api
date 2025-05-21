@@ -1,7 +1,7 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "description": "A simple Node.js REST API using Express.",
+  "description": "A simple Node.js REST API using Express, built with VS Code and Copilit.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
