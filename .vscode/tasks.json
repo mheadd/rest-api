@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start REST API server",
+      "type": "shell",
+      "command": "npm install && npm start",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
