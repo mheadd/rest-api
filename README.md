@@ -26,6 +26,7 @@ npm test
 
 ## Endpoints
 - `GET /` - Returns a welcome message.
+- `GET /reverse/:input` - Returns the reversed string from the `input` parameter as `{ reversed: "..." }`.
 
 ---
 
