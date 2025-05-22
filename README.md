@@ -1,6 +1,7 @@
 # Simple Node.js REST API
 
-[![Node.js CI](https://github.com/markheadd/rest-api/actions/workflows/nodejs.yml/badge.svg)](https://github.com/markheadd/rest-api/actions/workflows/nodejs.yml)
+[![Node.js CI](https://github.com/mheadd/rest-api/actions/workflows/nodejs.yml/badge.svg)](https://github.com/mheadd/rest-api/actions/workflows/nodejs.yml)
+
 
 This project is a basic REST API built with Node.js and Express. It provides a simple example endpoint for demonstration purposes.
 
