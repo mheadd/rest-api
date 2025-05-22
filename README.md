@@ -17,6 +17,20 @@ This project is a basic REST API built with Node.js and Express. It provides a s
 
 The API will be available at `http://localhost:3000/`.
 
+## Running in Docker
+
+To build and run the app in a Docker container:
+
+```bash
+# Build the Docker image
+docker build -t rest-api .
+
+# Run the container, mapping port 3000
+docker run -p 3000:3000 rest-api
+```
+
+The API will be available at `http://localhost:3000/` when the container is running.
+
 ## Running Tests
 
 To run the test suite:
