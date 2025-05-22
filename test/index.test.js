@@ -1,18 +1,19 @@
 const request = require('supertest');
 const app = require('../index');
 const assert = require('assert');
-let server;
+let server = app;
 
 // Test suite for the REST API
 describe('REST API', function () {
   // Start the server before running tests
   before(function (done) {
-    server = app.listen(4000, done);
+    server.listen(4000, done);
   });
 
   // Close the server after tests complete
   after(function (done) {
-    server.close(done);
+    console.log('All tests completed. Shutting down the server...');
+   process.exit(0);
   });
 
   // Test for the root endpoint
